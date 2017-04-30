@@ -1,12 +1,20 @@
 <!DOCTYPE html>
+<script src="bower_components/jquery/dist/jquery.js"></script>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Meu novo titulo</title>
+  <meta charset="UTF-8">
+  <title>Meu novo titulo</title>
+
 </head>
+
 <body>
-
-
+<input type="text" id="nome" />
+<script>
+$("#nome").change('input', function (input) {
+    console.log("mudou");
+})
+</script>
 alteracao
 2+2=4
 </body>
